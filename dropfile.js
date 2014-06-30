@@ -13,7 +13,7 @@
 
     var opts = {
     	message : "Drag Drop your files here",/*the displayed message in the drop area  */
-    	url : 'uploadtest'             /* default folder to upload files change it to convent you*/
+    	url : 'put the default url uploadin folder here'             /* default folder to upload files change it to convent you*/
     } 
 
 
