@@ -1,0 +1,83 @@
+
+.dropfile{  border:3px dashed #CDCACA !important;	color:#ABA9A9 !important;	display:block !important;		height:101px !important;	width:550px !important;	position:relative !important;	margin-bottom:6px;	margin-right:5px;	}
+.uploadedfiles{  border:3px solid #CDCACA !important;	color:#ABA9A9 !important;	display:block !important;	float:left !important;	height:101px !important;	width:550px !important;	position:relative !important;	margin-bottom:6px;	margin-right:5px;	}
+.img{ 	color:#ABA9A9 !important;	display:block !important;		height:auto !important;	min-height:101px;width:550px !important;	position:relative !important;	margin-bottom:6px;	margin-right:5px;	/*border:3px solid;*/ position:absolute;	z-index:10;	width:150px;	height:100px; background-color:#FFF!important;	}
+.dropfile .progress{  position:absolute; left:0;	bottom:0;	right:0;	background-color:#498CFA;	height:0;	color:#FFF;	font-weight:bold;	text-align:center;	z-index:12;	}
+/**.progress{  position:absolute; left:0; 	bottom:0;	right:0;	background-color:#498CFA; height:auto !important;	min-height :100%; color:#FFF;	font-weight:bold;	text-align:center;	z-index:12;	}
+/*Hover state*/
+.dropfile.hover{  background-color:#D6D7E5;	border-color:#3B7FED !important;	}
+.dropfile.hover .img{  /*+opacity:30%;*/	filter:alpha(opacity=30);	-ms-filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=30);	-moz-opacity:0.3;	opacity:0.3;	}
+.dropfile.hover .instructions{  color:#3B7FED;	}
+.dropfile span.instructions{  position:absolute;	top:30%;	left:0;	right:0;	font-weight:bold;	color:inherit;	font-size:11.7pt;	height:40px;	margin-top:-21px;	text-align:center;	z-index:9;	}
+.progressbar{
+	
+	border-radius: 5px;
+	position: inherit;	
+	float: right;	
+	text-align: center; 	
+	max-width: 50%;
+	background-color: #3B7FED;
+	margin-top:75px;
+	margin-right: 25%;	
+	height: 20px;
+	width: auto;
+
+}
+
+
+   .tables{   
+   	width: inherit;
+   }
+   .tables a{
+   	text-decoration: none;
+   }
+.img table tbody tr td{	
+	width: 33%;
+	text-align: center;
+	vertical-align: middle;
+}
+.img img{
+
+	border-radius: 5px;
+}
+
+.inputuploader{
+	 position:absolute;	
+	 top:75%;		
+	 right:50%;	
+	 font-weight:bold;	
+	 color:inherit;	
+	 font-size:11.7pt;	
+	 height:20px;	
+	 margin-top:-40px;	
+	 text-align:center;
+	 left:25%;	
+	 opacity: 0;	 
+	 display: block;
+	 z-index:9;
+	
+
+}
+.surinput{
+	 position:absolute;	
+	 top:75%;	
+	 left:23%;	
+	 font-weight:bold;	
+	 color:inherit;	
+	 font-size:11.7pt;	
+	 height:25px;	
+	 margin-top:-40px;
+	 width: 320px;
+	 text-align:center;	
+	 border-radius: 50px;
+	 z-index:8;
+}
+
+
+.tablesannonces td{	
+	text-align: center;
+	width: 200px;	
+	
+}
+
+}
