@@ -1,4 +1,4 @@
 uploadplgin
 ===========
 
-a simple js plugin that help to start a detailed plugin
+a  js plugin that give the possibility to uploads images using ajax
